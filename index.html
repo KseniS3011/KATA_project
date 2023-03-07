@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Макет CPS</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="header-background">
+      <div class="container-wraper">
+        <header class="header">
+          <ul class="header__img-container">
+            <li class="header__img-item">
+              <button>
+                <img
+                  class="header__img-menu"
+                  src="./assets/icons/burger.svg"
+                  alt="Кнопка меню"
+                />
+              </button>
+            </li>
+            <li class="separator" hidden></li>
+            <li class="header__img-item">
+              <button>
+                <img
+                  class="header__img-logo"
+                  src="./assets/icons/CPS_logo.svg"
+                  alt="Логотип"
+                />
+              </button>
+            </li>
+          </ul>
+          <ul class="header__img-container">
+            <li class="header__img-item" hidden>
+              <button>
+                <img
+                  class="header__img-call"
+                  src="./assets/icons/call.svg"
+                  alt="Кнопка для звонка"
+                />
+              </button>
+            </li>
+            <li class="header__img-item" hidden>
+              <button>
+                <img
+                  class="header__img-chat"
+                  src="./assets/icons/chat.svg"
+                  alt="Кнопка для сообщений"
+                />
+              </button>
+            </li>
+            <li class="header__img-item" hidden>
+              <button>
+                <img
+                  class="header__img-profile"
+                  src="./assets/icons/profile.svg"
+                  alt="Кнопка для перехода в профиль"
+                />
+              </button>
+            </li>
+            <li class="separator"></li>
+            <li class="header__text-request-repair" hidden>
+              <button>Оставить заявку</button>
+            </li>
+            <li class="header__img-item">
+              <button>
+                <img
+                  class="header__img-request-repair"
+                  src="./assets/icons/repair.svg"
+                  alt="Кнопка ремонта"
+                />
+              </button>
+            </li>
+            <li class="header__text-search" hidden>
+              <button>Статус ремонта</button>
+            </li>
+            <li class="header__img-item">
+              <button>
+                <img
+                  class="header__img-search"
+                  src="./assets/icons/checkstatus.svg"
+                  alt="Кнопка поиска"
+                />
+              </button>
+            </li>
+          </ul>
+        </header>
+      </div>
+    </div>
+    <nav class="navigation">
+      <div class="container-wraper">
+        <h1 class="navigation__heading">Услуги и сервисы</h1>
+        <ul class="navigation__items-list">
+          <li>
+            <button class="navigation__item">Ремонтируемые бренды</button>
+          </li>
+          <li>
+            <button class="navigation__item">Ремонтируемые устройства</button>
+          </li>
+          <li>
+            <button class="navigation__item">Цены на услуги</button>
+          </li>
+          <li>
+            <button class="navigation__item">Адреса сервисных центров</button>
+          </li>
+          <li>
+            <button class="navigation__item">Специальные цены</button>
+          </li>
+          <li>
+            <button class="navigation__item">Отзывы</button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <section class="about-company">
+        <ul class="container-wraper">
+          <li class="about-company__text">
+            Мы являемся авторизованным сервисным центром по ремонту техники
+            Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
+            официальной гарантией производителя.
+          </li>
+          <li class="about-company__text" hidden>
+            Мы успешно работаем с 1992 года и заслужили репутацию надежного
+            партнера, что подтверждает большое количество постоянных клиентов.
+            <span class="about-company__text" hidden
+              >Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою
+              очередь, советуют нас родным и близким.
+            </span>
+          </li>
+          <li><button class="about-company__onwards">Читать далее</button></li>
+        </ul>
+        <figure>
+          <img
+            class="about-company__img"
+            src="./assets/images/CPS_image.jpg"
+            alt="Фото логотипа компании"
+          />
+        </figure>
+      </section>
+    </main>
+  </body>
+</html>
