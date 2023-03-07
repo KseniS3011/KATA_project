@@ -222,8 +222,13 @@ span.about-company__text {
 }
 
 @media (min-width: 768px) and (max-width: 1119px) {
+
   .container-wraper {
     margin: 0 40px 0 24px;
+  }
+
+  .about-company > .container-wraper {
+    margin-right: 0;
   }
 
   .header__img-menu + .separator {
@@ -287,6 +292,10 @@ span.about-company__text {
 
   .container-wraper {
     margin: 0 28px 0 32px;
+  }
+
+  .about-company > .container-wraper {
+    margin-right: 0;
   }
 
   .header-background,
